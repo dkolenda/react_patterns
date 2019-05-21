@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "./ts-build/",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "target": "es5"
+  }
+}
