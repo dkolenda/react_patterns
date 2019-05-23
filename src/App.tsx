@@ -11,7 +11,10 @@ const App: React.FC = () => {
         <NavLink to={"/anti-pattern/arrow-function"}>Funkcja strzałkowa w props komponentu (przykład 1)</NavLink><br/>
         <NavLink to={"/anti-pattern/arrow-function2"}>Funkcja strzałkowa w props komponentu (przykład 2)</NavLink><br/>    
         <NavLink to={"/anti-pattern/arrow-function4000"}>Funkcja strzałkowa w props komponentu (przykład hard arrow)</NavLink><br/>
-        <NavLink to={"/anti-pattern/bind-function4000"}>Funkcja strzałkowa w props komponentu (przykład hard bind)</NavLink><br/>
+        <NavLink to={"/pattern/presentational-container-components"}>Presentational Container Components</NavLink><br/>
+        <NavLink to={"/pattern/higher-order-components"}>Higher Order Components</NavLink><br/>
+        <NavLink to={"/pattern/render-props"}>Render Props</NavLink>
+        <NavLink to={"/pattern/function-as-child-components"}>Function as Child Components</NavLink>
         <Root />
     </Router>
   );
