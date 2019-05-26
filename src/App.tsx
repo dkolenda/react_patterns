@@ -13,8 +13,9 @@ const App: React.FC = () => {
         <NavLink to={"/anti-pattern/arrow-function4000"}>Funkcja strzałkowa w props komponentu (przykład hard arrow)</NavLink><br/>
         <NavLink to={"/pattern/presentational-container-components"}>Presentational Container Components</NavLink><br/>
         <NavLink to={"/pattern/higher-order-components"}>Higher Order Components</NavLink><br/>
-        <NavLink to={"/pattern/render-props"}>Render Props</NavLink>
-        <NavLink to={"/pattern/function-as-child-components"}>Function as Child Components</NavLink>
+        <NavLink to={"/pattern/render-props"}>Render Props</NavLink><br/>
+        <NavLink to={"/pattern/function-as-child-components"}>Function as Child Components</NavLink><br/>
+        <NavLink to={"/pattern/compound-components"}>Compound Components</NavLink><br/>
         <Root />
     </Router>
   );

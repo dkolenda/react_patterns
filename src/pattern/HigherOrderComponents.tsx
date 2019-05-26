@@ -80,7 +80,7 @@ export const withLoaderAndError = (PresentationalHOC:any) =>{
                 return <ErrorMsg/>
             }
 
-            return <PresentationalHOC {...orginalProps} />
+            return <PresentationalHOC {...orginalProps}/>
         }
     }
 }
