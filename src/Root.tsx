@@ -11,6 +11,7 @@ import {HigherOrderComponents} from './pattern/HigherOrderComponents';
 import {RenderProps} from "./pattern/RenderProps";
 import {FunctionAsChildComponents} from "./pattern/FunctionAsChildComponents";
 import {CompoundComponents} from './pattern/CompoundComponents';
+import {InheritanceVsHoc} from "./pattern/InheritanceVsHoc" 
 
 export class Root extends React.Component{
 
@@ -27,9 +28,11 @@ export class Root extends React.Component{
 
                             <Route exact path={"/pattern/presentational-container-components"} component={PresentationalContainerComponents} /> 
                             <Route exact path={"/pattern/higher-order-components"} component={HigherOrderComponents} /> 
+                            <Route exact path={"/pattern/inheritance-vs-hoc"} component={InheritanceVsHoc} /> 
                             <Route exact path={"/pattern/render-props"} component={RenderProps} /> 
                             <Route exact path={"/pattern/function-as-child-components"} component={FunctionAsChildComponents} /> 
                             <Route exact path={"/pattern/compound-components"} component={CompoundComponents} />                                                                 
+                                                                                               
                         </Switch>                       
                 </div>
             );       
